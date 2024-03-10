@@ -25,6 +25,7 @@
     --highlight-background: rgba(0,0,0, 0.1);
     --text-color: black;
     --interface-theme-icon: url("./assets/sun.svg");
+    --avatar-url: url(./assets/avatar-luigi-light.jpg)
 }
 body{
     background: var(--background-url) no-repeat center top/cover;
