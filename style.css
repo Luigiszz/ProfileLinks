@@ -116,8 +116,11 @@ ul#social-media {
 
 }
 
-ul#social-media li{
+ul li {
     list-style: none;
+}
+
+ul#social-media a{
     border-radius: 100%;
     transition: background 0.4s;
     display: flex;
@@ -126,7 +129,7 @@ ul#social-media li{
     padding: 16px;
 }
 
-ul#social-media li:hover{
+ul#social-media a:hover{
     cursor: pointer;
     
     background-color: var(--highlight-background)
